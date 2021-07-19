@@ -1,0 +1,32 @@
+div .comment {
+    border: 1px solid grey;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 0.5%;
+}
+
+div .comment .date {
+    margin-left: 40%;
+}
+
+.userImg {
+    width: 3.5%;
+    margin-right: 0.5%;
+    border-radius: 10px;
+}
+
+video {
+    width: 60%;
+    margin: 1vh auto;
+}
+
+.fa-trash{
+    display: none;
+    transition-delay: 2s;
+}
+
+div .comment:hover > .fa-trash{
+    display: inline;
+    font-size: 23px;
+}
+

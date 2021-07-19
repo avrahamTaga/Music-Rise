@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.SearchResult {
+    min-height: 100vh;
+    background: rgb(195, 202, 236);
+}
+
+.SearchResult>div {
+    width: 90%;
+    margin: auto;
+}
+
+.SearchResult .ResultArtists {
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: 48% 48%;
+}
+
+.SearchResult .artistContainer {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.SearchResult .artistImage {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.SearchResult .artistContainer section {
+    width: 68%;
+    margin-top: 5vh;
+    margin-left: 7%;
+}
+
+.SearchResult .artistContainer a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width:767px) {
+    .SearchResult .ResultArtists {
+        grid-template-columns: 90%;
+    }
+}

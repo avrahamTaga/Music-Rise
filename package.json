@@ -1,0 +1,38 @@
+{
+  "name": "music-rise",
+  "version": "1.0.0",
+  "description": "this is a music sharing application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aschalegn/music-rise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aschalegn/music-rise/issues"
+  },
+  "homepage": "https://github.com/aschalegn/music-rise#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.6",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.2"
+  }
+}

@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.Profile {
+  max-width: 100vw;
+  min-height: 92vh;
+  background-color: #c5c9cc;
+}
+
+.Profile .user {
+  max-width: 100vw;
+  display: flex;
+}
+
+.Profile .themePicture {
+  position: relative;
+  max-width: 100vw;
+  height: 35vh;
+}
+
+.Profile img#themePicture {
+  width: 100%;
+  height: 35vh;
+}
+
+.Profile .fileUpload {
+  position: absolute;
+  font-size: 50px;
+  z-index: 10;
+  right: 5%;
+  bottom: 2%;
+  color: lightgray;
+}
+
+.Profile .user img#profileImage {
+  position: relative;
+  height: 35vh;
+  width: 350px;
+  top: -15vh; 
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.Profile .user .userDetails {
+  width: 60%;
+  margin: 20px;
+}
+
+.Profile form {
+  margin-top: -10vh;
+  margin-bottom: 3vh;
+}
+
+.Profile .videos {
+  margin-bottom: 2vh;
+}
+
+.Profile .fa-trash {
+  display: block;
+  position: absolute;
+  color: rgb(175, 169, 169);
+  font-size: 25px; 
+  cursor:pointer;
+  right: 7%;
+  top: 5%;
+  opacity: 0.5;
+  transition: all .7s;
+  z-index: 2000;
+}
+
+.Profile .fa-trash:hover{
+  opacity: 1;
+  font-size: 30px;
+}
+
+.Profile .videos div video {
+  width: 350px;
+  margin-right: 2px;
+}
+
+@media only screen and (max-width: 700px) {
+  .Profile .user {
+    flex-direction: column;
+  }
+  .Profile .user img#profileImage {
+    width: 45%;
+  }
+  .Profile .user .userDetails {
+    margin-top: -12vh;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .Profile .user img#profileImage {
+    width: 60%;
+  }
+  .Profile .user .userDetails {
+    margin-top: -12vh;
+    margin-bottom: 2vh;
+  }
+}

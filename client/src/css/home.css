@@ -1,0 +1,10 @@
+.Home {
+  height: 865px;
+  background-image: url("/images/bob-marley-1888509.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.topCarousel img {
+  height: 50vh;
+}
