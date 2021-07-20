@@ -1,2 +1,2 @@
-# music-rise
-this is a music sharing application 
+# Music-Rise
+This is a music sharing application.
