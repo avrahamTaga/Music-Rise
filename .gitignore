@@ -5,4 +5,11 @@
 *VideoAudio
 
 *videoImage
+
 .env
+
+# Local Netlify folder
+
+*client
+
+.netlify
