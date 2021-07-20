@@ -8,8 +8,4 @@
 
 .env
 
-# Local Netlify folder
-
 *client
-
-.netlify
